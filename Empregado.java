@@ -1,6 +1,7 @@
 public class Empregado{
     private String nome;
     private int idade;
+    private int tipo;
     private double salario;
     private double comissao;
     private double bonus;
@@ -32,5 +33,13 @@ public class Empregado{
 
     public void setIdade(int idade){
         this.idade = idade;
+    }
+
+    public void setTipo (int tipo){
+        this.tipo = tipo;
+    }
+
+    public int tipo(){
+        return this.tipo;
     }
 }
